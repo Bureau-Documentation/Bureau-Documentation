@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Timecode Exporter">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="icon" href="/css/favicons/favicon.ico" sizes="any" />
+  <link rel="icon" href="/css/favicons/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/css/favicons/apple-touch-icon.png" />
+  <link rel="manifest" href="/css/favicons/manifest.webmanifest" />
+</head>
+
+<body>
+    <!-- Hidden checkbox for toggling sidebar -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </label>
+
+    <div class="sidebar {% if isMobile %}hidden{% endif %}">
+        <nav>
+            <ul>
+                <li>
+                <a href="/"><img class="viory" src="/img/Viory.png" alt="Viory"></a>
+                </li>
+                <li class="sctop">Documentation</li>
+                <li class="sc">Stringer</li>
+                <li><a href="/stringer/filming">Filming</a></li>
+                <li><a href="/stringer/sending">Sending</a></li>
+                <li><a href="/stringer/expense">Expense</a></li>
+                <li><a href="/stringer/payment">Payment</a></li>
+                <li class="sc">Download</li>
+                <li><a href="/download/timecode-exporter">TC Exporter</a></li>
+                <li><a href="/download/youtube">Youtube</a></li>
+                <li><a href="/download/sony-cameras">Sony</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="wrapper">
+      {{ content | safe }}
+      {% if page.url != '/' %}
+          <a class="top" href="#">↑↑↑</a>
+      {% endif %}
+    </div>
+</body>
+</html>
+
+<!--
+  {% for item in sidebar.items %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+-->

@@ -1,0 +1,6 @@
+{
+  "items": [
+    { "title": "Home", "url": "/" },
+    { "title": "Getting Started", "url": "/stringer/sending/" }
+  ]
+}
