@@ -11,9 +11,11 @@ date: 2023-01-01
 
 
 
-[Download for Windows](https://github.com/Timecode-Exporter/Timecode-Exporter/releases/download/v1.0.3/Windows_v1.0.3.zip)
+[Download for Windows](https://github.com/Bureau-Documentation/Timecode-Exporter/releases/download/v2.0.0/Windows_v2.0.0.zip)
 
-[Download for Mac](https://github.com/Timecode-Exporter/Timecode-Exporter/releases/download/v1.0.3/Mac_v1.0.3.zip)
+[Download for Mac](https://github.com/Bureau-Documentation/Timecode-Exporter/releases/download/v2.0.0/Mac_Silicon_v2.0.0.zip)
+
+[Download for Mac (Intel)](https://github.com/Bureau-Documentation/Timecode-Exporter/releases/download/v2.0.0/Mac_Intel_v2.0.0.zip)
 
 
 <br><br>
@@ -48,4 +50,4 @@ The app is now unblocked. You can copy it to your Application folder afterwards
 
 <br><br>
 
-[v1.0.3](https://github.com/Timecode-Exporter/Timecode-Exporter){target='_blank'}
+[v2.0.0](https://github.com/Timecode-Exporter/Timecode-Exporter){target='_blank'}

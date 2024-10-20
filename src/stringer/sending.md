@@ -98,12 +98,9 @@ Please provide these materials to verify your locale:
 </details>
 
 
-<br><br>
-# ❧
-<br><br>
+***
 
-
-## Please send everything in an email to:
+# Please send everything in an email to:
 
 ```
 newsorg@viory.video

@@ -78,9 +78,8 @@ It's not necessary to keep the same speed throughout. You can start slow, gradua
 
 A shallow depth of field can look pleasant. But avoid overusing it. Generally, don’t go over F2,8 on full frame sensors to avoid complete separation of the subject
 
-<br><br>
-# ❧
-<br><br>
+***
+
 
 ### Good video examples
 

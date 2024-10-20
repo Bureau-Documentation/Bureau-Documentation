@@ -274,6 +274,7 @@ body {
   margin-top: calc(var(--line) * 2);
 }
 .wrapper a.top {
+  color: var(--primary-color);
   text-decoration: none;
   text-align: center;
   margin: auto auto;
