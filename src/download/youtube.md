@@ -31,7 +31,7 @@ The app is now unblocked. You can copy it to your Application folder afterwards
 <details>
 <summary>Video Tutorial</summary>
 <blockquote>
-<video controls preload="metadata"><source src="/video/Opening on a Mac.webm#t=0.1" type="video/mp4"/></video>
+<video controls preload="metadata"><source src="https://github.com/Bureau-Documentation/Bureau-Documentation/raw/refs/heads/main/src/video/Opening%20on%20a%20Mac.webm#t=0.1" type="video/mp4"/></video>
 </blockquote>
 </details>
 

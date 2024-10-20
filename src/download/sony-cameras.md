@@ -14,7 +14,7 @@ Ungraded SLog footage is not for delivery! You’ll require LUTs and time to mak
 
 <br><br>
 
-[Alister Chapman's LUTs](https://www.xdcam-user.com/wp-content/uploads/2018/08/Alister-V-Look-V3-S-Log3.zip)
+[Download Alister Chapman's LUTs](https://www.xdcam-user.com/wp-content/uploads/2018/08/Alister-V-Look-V3-S-Log3.zip)
 
 
  <!--

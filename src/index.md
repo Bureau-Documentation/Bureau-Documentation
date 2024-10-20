@@ -10,4 +10,4 @@ date: 2023-01-01
 
 This site contains documentations for the bureau
 
-Click an item on the left to get started
+Click an item to get started

@@ -99,10 +99,8 @@ Please provide these materials to verify your locale:
 
 
 <br><br>
-
 # ❧
-
-<br>
+<br><br>
 
 
 ## Please send everything in an email to:
