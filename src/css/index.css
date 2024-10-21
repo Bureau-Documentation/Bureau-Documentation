@@ -262,6 +262,7 @@ body {
 }
 .sidebar nav ul li {
   margin-top: var(--line);
+  font-weight: 500;
 }
 .wrapper a.top,
 .sidebar nav ul li.sc,
@@ -269,6 +270,7 @@ body {
   font-variant-caps: small-caps;
   font-weight: 600;
   text-transform: lowercase;
+  font-size: var(--font-size);
   color: var(--secondary-color);
   letter-spacing: 0.5px;
   margin-top: calc(var(--line) * 2);
@@ -284,6 +286,9 @@ body {
 .sidebar nav ul li.sctop {
   color: var(--primary-color);
   margin-top: calc(var(--line) * 1);
+}
+div.sidebar nav ul li:not(:first-child) a {
+  margin-left: calc(var(--font-size) * 0.5);
 }
 /*----------------------------------------------------------------------------------------------------*/
 p {
@@ -398,6 +403,7 @@ strong {
   background-color: var(--secondary-background-color);
 }
 /*----------------------------------------------------------------------------------------------------*/
+button,
 summary {
   list-style: none;
   display: inline-flex;
@@ -426,10 +432,12 @@ details[open] > summary::after {
 summary::-webkit-details-marker {
   display: none;
 }
+.wrapper button#copyButton,
 summary {
   background-color: var(--primary-color);
   color: var(--primary-background-color);
   border-radius: 8px;
+  border: none;
 }
 
 details[open] summary {
@@ -504,3 +512,40 @@ details {
   margin-left: 0rem;
 }
 /*----------------------------------------------------------------------------------------------------*/
+#drop-area {
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  width: 80%;
+  height: calc(var(--line) * 6);
+  margin: calc(var(--line) * 2) auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  position: relative;
+  cursor: pointer;
+  line-height: 2;
+}
+@media (max-width: 780px) {
+  #drop-area {
+    width: 100%;
+  }
+}
+#fileElem {
+  display: none;
+}
+#timecodes {
+  margin: calc(var(--line) * 2) auto 0;
+  white-space: pre-wrap;
+  text-align: left;
+  display: none;
+  color: #999;
+  width: 50%;
+}
+button {
+  margin-top: calc(var(--line) * 2);
+  padding: 1rem;
+  font-size: var(--font-size);
+  width: 80%;
+  display: block;
+}

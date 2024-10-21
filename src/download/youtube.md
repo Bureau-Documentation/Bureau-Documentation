@@ -15,18 +15,17 @@ date: 2023-01-01
 
 [Download for Mac](https://github.com/StefanLobbenmeier/youtube-dl-gui/releases/download/v2.5.4/Open-Video-Downloader-2.5.4-universal.dmg)
 
-<br><br>
-### Opening on a Mac
+***
 
-You need to do one step before running this app for the first time
+### Opening on a Mac
 
 *Double click the app* and ignore the warning. The app is not malicious, Apple is just annoying
 
-Afterwards, open *System Settings* → *Privacy & Security*
+Open *System Settings* → *Privacy & Security*
 
 Scroll down and click the *Open Anyway* button → click *Open*
 
-The app is now unblocked. You can copy it to your Application folder afterwards
+The app is unblocked from now on. Copy it to your Application folder
 
 <details>
 <summary>Video Tutorial</summary>
@@ -37,7 +36,7 @@ The app is now unblocked. You can copy it to your Application folder afterwards
 
 ***
 
-# Scene Cut Detection
+### Scene Cut Detection
 
 You can edit a pool video more easily by using AI to automatically detect cuts:
 
