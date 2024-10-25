@@ -11,9 +11,9 @@ date: 2023-01-01
 
 
 
-[Download for Windows](https://github.com/Bureau-Documentation/Timecode-Exporter/releases/download/v2.0.0/Windows_v2.0.0.zip)
+[Download for Windows](https://github.com/Bureau-Documentation/Timecode-Exporter/releases/download/v2.0.1/Windows_v2.0.1.zip)
 
-[Download for Mac](https://github.com/Bureau-Documentation/Timecode-Exporter/releases/download/v2.0.0/Mac_Intel_v2.0.0.zip)
+[Download for Mac](https://github.com/Bureau-Documentation/Timecode-Exporter/releases/download/v2.0.1/Mac_Intel_v2.0.1.zip)
 
 [Online version](#online-version)
 

@@ -15,39 +15,40 @@
 </head>
 
 <body>
-    <!-- Hidden checkbox for toggling sidebar -->
-    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
-    <label for="menu-toggle" class="burger">
-        <div></div>
-        <div></div>
-        <div></div>
-    </label>
+  <!-- Hidden checkbox for toggling sidebar -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+  <label for="menu-toggle" class="burger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </label>
 
-    <div class="sidebar {% if isMobile %}hidden{% endif %}">
-        <nav>
-            <ul>
-                <li>
-                <a href="/"><img class="viory" src="/img/Viory.png" alt="Viory"></a>
-                </li>
-                <li class="sctop">Documentation</li>
-                <li class="sc">Stringer</li>
-                <li><a href="/stringer/filming">Filming</a></li>
-                <li><a href="/stringer/sending">Sending</a></li>
-                <li><a href="/stringer/expense">Expense</a></li>
-                <li><a href="/stringer/payment">Payment</a></li>
-                <li class="sc">Download</li>
-                <li><a href="/download/timecode-exporter">TC Exporter</a></li>
-                <li><a href="/download/youtube">Youtube</a></li>
-                <li><a href="/download/sony-cameras">Sony</a></li>
-            </ul>
-        </nav>
-    </div>
+  <div class="sidebar {% if isMobile %}hidden{% endif %}">
+    <nav>
+      <ul>
+        <li>
+          <a href="/"><img class="viory" src="/img/Viory.png" alt="Viory"></a>
+        </li>
+        <li class="sctop">Documentation</li>
+        <li class="sc">Stringer</li>
+        <li><a href="/stringer/filming">Filming</a></li>
+        <li><a href="/stringer/sending">Sending</a></li>
+        <li><a href="/stringer/expense">Expense</a></li>
+        <li><a href="/stringer/payment">Payment</a></li>
+        <li class="sc">Download</li>
+        <li><a href="/download/timecode-exporter">TC Exporter</a></li>
+        <li><a href="/download/youtube">Youtube</a></li>
+        <li><a href="/download/sony-cameras">Sony</a></li>
+      </ul>
+    </nav>
+  </div>
 
-    <div class="wrapper">
-      {{ content | safe }}
-      {% if page.url != '/' %}
-          <a class="top" href="#">↑↑↑</a>
-      {% endif %}
-    </div>
+  <div class="wrapper">
+    {{ content | safe }}
+    {% if page.url != '/' %}
+    <a class="top" href="#">↑↑↑</a>
+    {% endif %}
+  </div>
 </body>
+
 </html>
